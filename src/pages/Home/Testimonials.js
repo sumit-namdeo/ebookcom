@@ -14,8 +14,8 @@ export const Testimonials = () => {
                     <figcaption className="flex items-center justify-center ">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png" alt="Very easy this was" />
                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                            <div>Bonnie Green</div>
-                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Open AI</div>
+                            <div>Carolina Max Green</div>
+                            <div className="text-sm text-gray-500 dark:text-gray-400 ">Developer at Hello World</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -27,8 +27,8 @@ export const Testimonials = () => {
                     <figcaption className="flex items-center justify-center ">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png" alt="Very easy this was" />
                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                            <div>Roberta Casas</div>
-                            <div className="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
+                            <div>Julie Casas</div>
+                            <div className="text-sm text-gray-500 dark:text-gray-400">Lead designer at Larum</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -40,8 +40,8 @@ export const Testimonials = () => {
                     <figcaption className="flex items-center justify-center ">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Very easy this was" />
                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                            <div>Jese Leos</div>
-                            <div className="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
+                            <div>John doe Leos</div>
+                            <div className="text-sm text-gray-500 dark:text-gray-400">Software Engineer</div>
                         </div>
                     </figcaption>
                 </figure>
@@ -53,8 +53,8 @@ export const Testimonials = () => {
                     <figcaption className="flex items-center justify-center ">
                         <img className="rounded-full w-9 h-9" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png" alt="Very easy this was" />
                         <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
-                            <div>Joseph McFall</div>
-                            <div className="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
+                            <div>Albert McFall</div>
+                            <div className="text-sm text-gray-500 dark:text-gray-400">CTO</div>
                         </div>
                     </figcaption>
                 </figure>

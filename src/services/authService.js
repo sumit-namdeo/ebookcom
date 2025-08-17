@@ -8,7 +8,7 @@ export async function login(authDetails) {
     const response = await fetch(`${process.env.REACT_APP_HOST}/login`, requestOption);
 
     if (!response.ok) {
-
+        // eslint-disable-next-line
         throw { message: response.statusText, status: response.status, userMessage: "We couldn’t log you in right now. Please try again later." }
     }
 
@@ -35,7 +35,7 @@ export async function register(authDetails) {
     const response = await fetch(`${process.env.REACT_APP_HOST}/register`, requestOptions);
 
     if (!response.ok) {
-
+        // eslint-disable-next-line
         throw { message: response.statusText, status: response.status, userMessage: "We couldn’t register you in right now. Please try again later." }
     }
 

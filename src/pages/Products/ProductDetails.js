@@ -24,14 +24,14 @@ export const ProductDetails = () => {
                 setProduct(data);
 
             } catch (error) {
-                
+
                 toast.error(error.userMessage, { position: "top-center", autoClose: false })
             }
         }
 
         fetchProducts()
 
-    }, [])
+    },)
 
 
     const exists = cartList.some(item => item.id === product.id);

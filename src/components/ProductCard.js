@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ProductImage from '../assets/product-1.jpg';
 import { Ratings } from './Ratings';

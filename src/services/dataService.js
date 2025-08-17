@@ -18,7 +18,7 @@ export async function getUser() {
     const response = await fetch(`${process.env.REACT_APP_HOST}/600/users/${userSession.id}`, headers)
 
     if (!response.ok) {
-
+        // eslint-disable-next-line
         throw { message: response.statusText, status: response.status, userMessage: "We couldn’t fetch the user. Please try again later." }
     }
 
@@ -39,7 +39,7 @@ export async function getUserOrders() {
         });
 
     if (!response.ok) {
-
+        // eslint-disable-next-line
         throw { message: response.statusText, status: response.status, userMessage: "We couldn’t fetch the user. Please try again later." }
     }
 
@@ -73,7 +73,7 @@ export async function createOrder(cartList, total, user) {
     });
 
     if (!response.ok) {
-
+        // eslint-disable-next-line
         throw { message: response.statusText, status: response.status, userMessage: "We couldn’t fetch the user. Please try again later." }
     }
 

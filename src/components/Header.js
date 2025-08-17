@@ -4,6 +4,7 @@ import { Search } from './Search';
 import { DropDownLoggedOut } from './DropDownLoggedOut';
 import { DropdownLoggedIn } from './DropdownLoggedIn';
 import { useCart } from '../context';
+import Logo from '../assets/logoebook.png'
 
 export const Header = () => {
 
@@ -35,7 +36,7 @@ export const Header = () => {
             <nav className="bg-white border-gray-200 dark:bg-gray-900">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Ebook Com Logo" />
+                        <img src={Logo} className="h-8" alt="Ebook Com Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">EBook Com</span>
                     </Link>
                     <div className="flex items-center space-x-6 rtl:space-x-reverse">

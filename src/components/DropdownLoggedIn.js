@@ -32,7 +32,7 @@ export const DropdownLoggedIn = ({ setUserDropdown }) => {
 
         fetchUserData();
 
-    },)
+    }, [user?.id])
 
     function handleLogOut() {
         logout()

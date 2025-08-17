@@ -31,7 +31,7 @@ export const ProductDetails = () => {
 
         fetchProducts()
 
-    },)
+    }, [id])
 
 
     const exists = cartList.some(item => item.id === product.id);

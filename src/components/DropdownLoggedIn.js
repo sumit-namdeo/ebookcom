@@ -20,8 +20,7 @@ export const DropdownLoggedIn = ({ setUserDropdown }) => {
 
                     setUser(data)
 
-                } else {
-
+                } else {                    
                     handleLogOut();
                 }
             } catch (error) {
@@ -31,7 +30,7 @@ export const DropdownLoggedIn = ({ setUserDropdown }) => {
         }
 
         fetchUserData();
-
+        // eslint-disable-next-line
     }, [user?.id])
 
     function handleLogOut() {

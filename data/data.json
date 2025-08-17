@@ -1,0 +1,578 @@
+{
+  "products": [
+    {
+      "id": 10001,
+      "name": "Basics To Advanced In React",
+      "overview": "Learn React from scratch to advanced topics with real-world projects.",
+      "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+      "image_local": "/assets/images/10001.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Mastering JavaScript",
+      "overview": "Complete guide to JavaScript ES6+ features.",
+      "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+      "price": 25,
+      "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+      "image_local": "/assets/images/10002.avif",
+      "rating": 1,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10003,
+      "name": "CSS Masterclass",
+      "overview": "Learn advanced CSS layouts, animations, and responsive design.",
+      "long_description": "Includes Flexbox, Grid, responsive media queries, transitions, transforms, and UI animations.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "image_local": "/assets/images/10003.avif",
+      "rating": 4.8,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10004,
+      "name": "Node.js Backend Development",
+      "overview": "Learn to build REST APIs using Node.js and Express.",
+      "long_description": "Includes authentication, database integration, and deployment on cloud platforms.",
+      "price": 35,
+      "poster": "https://images.unsplash.com/photo-1581091012184-5c5af85f4b59",
+      "image_local": "/assets/images/10004.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10005,
+      "name": "Python For Beginners",
+      "overview": "Start your programming journey with Python.",
+      "long_description": "Covers syntax, functions, data structures, and small automation projects.",
+      "price": 20,
+      "poster": "https://images.unsplash.com/photo-1581091870622-71c31d0e3f57",
+      "image_local": "/assets/images/10005.avif",
+      "rating": 2,
+      "in_stock": false,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10006,
+      "name": "Full Stack MERN Bootcamp",
+      "overview": "Learn MongoDB, Express, React, and Node.js.",
+      "long_description": "Hands-on projects building complete applications from scratch.",
+      "price": 50,
+      "poster": "https://images.unsplash.com/photo-1556155092-490a1ba16284",
+      "image_local": "/assets/images/10006.avif",
+      "rating": 5,
+      "in_stock": false,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10007,
+      "name": "Tailwind CSS In Depth",
+      "overview": "Learn to build modern, responsive UIs with Tailwind.",
+      "long_description": "From setup to advanced utility-first design techniques.",
+      "price": 15,
+      "poster": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+      "image_local": "/assets/images/10007.avif",
+      "rating": 4.7,
+      "in_stock": false,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "TypeScript Crash Course",
+      "overview": "Strongly typed JavaScript with TypeScript.",
+      "long_description": "Covers interfaces, generics, type assertions, and working with APIs.",
+      "price": 22,
+      "poster": "https://images.unsplash.com/photo-1581090700227-4c4f50b30e5a",
+      "image_local": "/assets/images/10008.avif",
+      "rating": 4.9,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": true
+    },
+    {
+      "id": 10009,
+      "name": "React Native Mobile Apps",
+      "overview": "Build mobile apps for iOS and Android.",
+      "long_description": "Complete guide with hands-on projects and API integration.",
+      "price": 40,
+      "poster": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+      "image_local": "/assets/images/10009.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10010,
+      "name": "Django Web Development",
+      "overview": "Python-based web framework for full-stack apps.",
+      "long_description": "Includes database models, authentication, and deployment.",
+      "price": 33,
+      "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "image_local": "/assets/images/10010.avif",
+      "rating": 4.7,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    },
+    {
+      "id": 10011,
+      "name": "SQL Mastery",
+      "overview": "Master database queries and optimization.",
+      "long_description": "Covers MySQL, PostgreSQL, and advanced query performance tuning.",
+      "price": 18,
+      "poster": "https://images.unsplash.com/photo-1522071820081-009f0129c71c",
+      "image_local": "/assets/images/10011.avif",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10012,
+      "name": "Git & GitHub Essentials",
+      "overview": "Version control for developers.",
+      "long_description": "Covers branching, merging, pull requests, and collaboration workflows.",
+      "price": 12,
+      "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+      "image_local": "/assets/images/10012.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10013,
+      "name": "Next.js Zero to Hero",
+      "overview": "React framework for production-grade apps.",
+      "long_description": "Learn SSR, ISR, API routes, and SEO optimization.",
+      "price": 38,
+      "poster": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68",
+      "image_local": "/assets/images/10013.avif",
+      "rating": 2,
+      "in_stock": false,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10014,
+      "name": "Vue.js From Scratch",
+      "overview": "Progressive JavaScript framework for building UIs.",
+      "long_description": "Includes Vue CLI, Vue Router, Vuex, and composition API.",
+      "price": 27,
+      "poster": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+      "image_local": "/assets/images/10014.avif",
+      "rating": 3,
+      "in_stock": false,
+      "size": 4,
+      "best_seller": false
+    },
+    {
+      "id": 10015,
+      "name": "Angular Complete Guide",
+      "overview": "Comprehensive Angular training.",
+      "long_description": "Covers components, services, RxJS, forms, and deployment.",
+      "price": 36,
+      "poster": "https://images.unsplash.com/photo-1581091012184-5c5af85f4b59",
+      "image_local": "/assets/images/10015.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": false
+    }
+  ],
+  "featured_products": [
+    {
+      "id": 10001,
+      "name": "Basics To Advanced In React",
+      "overview": "Learn React from scratch to advanced topics with real-world projects.",
+      "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+      "image_local": "/assets/images/10001.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Mastering JavaScript",
+      "overview": "Complete guide to JavaScript ES6+ features.",
+      "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+      "price": 25,
+      "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+      "image_local": "/assets/images/10002.avif",
+      "rating": 4.5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10003,
+      "name": "CSS Masterclass",
+      "overview": "Learn advanced CSS layouts, animations, and responsive design.",
+      "long_description": "Includes Flexbox, Grid, responsive media queries, transitions, transforms, and UI animations.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+      "image_local": "/assets/images/10003.avif",
+      "rating": 4.8,
+      "in_stock": true,
+      "size": 4,
+      "best_seller": false
+    }
+  ],
+  "orders": [
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 1,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 1,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 1,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 1,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 4
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 4.5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 5
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Basics To Advanced In React",
+          "overview": "Learn React from scratch to advanced topics with real-world projects.",
+          "long_description": "This course covers everything from JSX basics, state management, hooks, routing, context API, to performance optimization and deployment.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633332755192-727a05c4013d",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Mastering JavaScript",
+          "overview": "Complete guide to JavaScript ES6+ features.",
+          "long_description": "Covers all core concepts, advanced patterns, and modern best practices for building scalable web apps.",
+          "price": 25,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 1,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 54,
+      "qty": 2,
+      "user": {
+        "name": "Sumit Namdeo",
+        "email": "sumit@gmail.com",
+        "id": 1
+      },
+      "id": 6
+    },
+    {
+      "cartList": [
+        {
+          "id": 10009,
+          "name": "React Native Mobile Apps",
+          "overview": "Build mobile apps for iOS and Android.",
+          "long_description": "Complete guide with hands-on projects and API integration.",
+          "price": 40,
+          "poster": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+          "image_local": "/assets/images/10009.avif",
+          "rating": 4,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10015,
+          "name": "Angular Complete Guide",
+          "overview": "Comprehensive Angular training.",
+          "long_description": "Covers components, services, RxJS, forms, and deployment.",
+          "price": 36,
+          "poster": "https://images.unsplash.com/photo-1581091012184-5c5af85f4b59",
+          "image_local": "/assets/images/10015.avif",
+          "rating": 4,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 76,
+      "qty": 2,
+      "user": {
+        "name": "John",
+        "email": "john@gmail.com",
+        "id": 3
+      },
+      "id": 7
+    },
+    {
+      "cartList": [
+        {
+          "id": 10010,
+          "name": "Django Web Development",
+          "overview": "Python-based web framework for full-stack apps.",
+          "long_description": "Includes database models, authentication, and deployment.",
+          "price": 33,
+          "poster": "https://images.unsplash.com/photo-1505685296765-3a2736de412f",
+          "image_local": "/assets/images/10010.avif",
+          "rating": 4.7,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": false
+        },
+        {
+          "id": 10012,
+          "name": "Git & GitHub Essentials",
+          "overview": "Version control for developers.",
+          "long_description": "Covers branching, merging, pull requests, and collaboration workflows.",
+          "price": 12,
+          "poster": "https://images.unsplash.com/photo-1605902711622-cfb43c44367f",
+          "image_local": "/assets/images/10012.avif",
+          "rating": 3,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 45,
+      "qty": 2,
+      "user": {
+        "name": "Shraddha",
+        "email": "shraddha@gmail.com",
+        "id": 5
+      },
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "email": "sumit@gmail.com",
+      "password": "$2a$10$tluhGrDQ9BpTt6zI37PkQ.P1T.d7YeF5oh03DDvMcL/TP5TAaBCJq",
+      "name": "Sumit Namdeo",
+      "id": 1
+    },
+    {
+      "email": "kelly.williams@example.com",
+      "password": "$2a$10$6S4IdEdlZYKSc.O02Z1WAu74pCfDBWJUqQQE60E3.lglmlDwjYGFS",
+      "name": "ssdsd",
+      "id": 2
+    },
+    {
+      "email": "john@gmail.com",
+      "password": "$2a$10$Ajj66wwStAR6NQa3dQsIfO49DdXJOBnLOYvkmAOlEfWutjU1Iu92e",
+      "name": "John",
+      "id": 3
+    },
+    {
+      "email": "smith@gmail.com",
+      "password": "$2a$10$yUZ00GAf.dc0rQkK1OCTVOdKVE3aGjqj/A3H/rb8.U.pK.2MqjHce",
+      "name": "smith",
+      "id": 4
+    },
+    {
+      "email": "shraddha@gmail.com",
+      "password": "$2a$10$jOSwSXorM9/LCdoUomGz/ufzZn/hDjGnbwyrRxSTyXPH.CcR6tNGW",
+      "name": "Shraddha",
+      "id": 5
+    }
+  ]
+}
